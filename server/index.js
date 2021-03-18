@@ -10,6 +10,7 @@ const { SERVER_PORT } = process.env;
 // Middwares
 server.use(cors());
 server.use(morgan('tiny'));
+server.use(express.json())
 
 // Additional routers
 server.use('/cars', carsRouter);
