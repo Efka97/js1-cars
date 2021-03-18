@@ -1,0 +1,8 @@
+# ignoruoja node_modules aplankus ir juose esantį turinį
+node_modules/
+# ignoruoja .env faila aplanke server
+server/.env
+# ignoruoja failus pavadinimu package-lock.json
+package-lock.json
+# ignoruoja .vscode aplanką ir jame esantį turinį
+.vscode/
