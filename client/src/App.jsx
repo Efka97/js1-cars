@@ -1,4 +1,5 @@
 import React from 'react'
+import CarsManager from './components/CarsManager'
 
 class App extends React.Component {
 
@@ -6,7 +7,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-
+        <CarsManager />
       </div>
     );
   }
