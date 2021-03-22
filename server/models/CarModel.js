@@ -22,4 +22,4 @@ const schema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.Model('Car', schema);
+module.exports = mongoose.model('Car', schema);

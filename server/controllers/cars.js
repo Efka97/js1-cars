@@ -1,18 +1,19 @@
+const CarModel = require('../models/CarModel');
 
-
-const getCars = (req, res) => {
+const getCars = async (req, res) => {
+  const cars = await CarModel.find();
   res.status(200).json('Ateityje grąžinsiu automobilius')
 }
 
-const postCar = (req, res) => {
+const postCar = async (req, res) => {
   res.status(200).json('Ateityje įdėsiu vieną automobilį')
 }
 
-const updateCar = (req, res) => {
+const updateCar = async (req, res) => {
   res.status(200).json('Ateityje atnaujinsiu vieną automobilį')
 }
 
-const deleteCar = (req, res) => {
+const deleteCar = async (req, res) => {
   res.status(200).json('Ateityje ištrinsiu vieną automobilį')
 }
 
