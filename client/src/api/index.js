@@ -67,14 +67,11 @@ export const deleteCar = async (id, success, failure) => {
   }
 }
 
-updateCar(
-
-  updatedCar => console.log(updatedCar),
-  err => console.error(err)
-)
-
 const API = {
   getCars,
+  postCar,
+  updateCar,
+  deleteCar
 };
 
 export default API;
