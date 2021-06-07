@@ -1,4 +1,4 @@
-# Full stack MERN baigiamasis projektas
+# Full-Stack MERN final project
 
 ## Run server 
 
