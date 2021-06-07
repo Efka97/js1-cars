@@ -23,7 +23,7 @@ export class CarTable extends Component {
     return (
       <div>
         { cars.length === 0
-          ? <h2>Nėra mašinų</h2>
+          ? <h2>No cars found...</h2>
           : <table className={styles.Table}>
             <thead>
               <tr>

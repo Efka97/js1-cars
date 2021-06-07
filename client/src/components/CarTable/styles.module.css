@@ -5,7 +5,8 @@
 }
 
 .Table th, .Table td {
-  padding: 0.5rem
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .Table th {
